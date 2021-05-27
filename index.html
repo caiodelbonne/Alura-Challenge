@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alura Dev</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/topo.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/menu-direito.css">
+    <link rel="stylesheet" href="./css/layoutcentral.css">
+</head>
+ <!--
+     
+    
+    <link rel="stylesheet" href="./css/teste.css">
+
+
+
+    
+ -->
+<body>
+   
+    <header>
+        <div class="container-cabecalho">
+            <h3><img src="imagem/aluraDev.png" class="aluraDev"></h3>
+                <input type="text" placeholder="  Busque por algo" class="barraDeBusca">
+                <div class="perfil">
+                <img src="imagem/fotoPerfil.png" class="fotoPerfil"><a href="index.html"></a>
+                <p class="nomeDoUsuario">Caio Cesar</p>
+            </div>
+        </div>
+    </header>
+
+ <!--menu lado esquerdo -->
+    <div class="conteudo-principal">
+        <section class="menu-navegacao">
+            <div class="container-menu-esquerdo">
+                <h3 class="menu-esquerdo-titulo">Menu</h3>
+                <nav class="menu-nav-esquerdo">
+                    <ul class="lista-menu-nav">
+                        <div>               
+                            <img src="imagem/icone-editor.png" alt="Imagem do Editor">
+                            <li class="item-menu-nav"><a href="#" class="link-nav">Editor de código</a></li>
+                        </div>
+                        <div>
+                            <img src="imagem/icone-comunidade.png" alt=" Comunidade">
+                            <li class="item-menu-nav" id="comunidade"><a class="link-nav" href="#">Comunidade</a></li>
+                        </div>
+                           
+                       
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </div>
+
+    <!-- menu do lado direito -->
+        <section id="projeto">
+                <h2 class="titulo-seuprojeto">S e u     p r o j e t o</h2>
+                <section>
+                    <div class="area">
+                        <input type="text" placeholder="Nome do seu projeto" id="projeto-input">
+                        <input type="text" placeholder="Descrição do seu projeto" id="desc-projeto">
+                    </div>
+                </section>
+              
+              <section>
+                <h2 class="titulo-seuprojeto">P e r s o n a l i z a ç ã o </h2>
+                <select id="lang">
+                    <option>JavaScript</option>
+                    <option>Java</option>
+                    <option>Phython</option>
+                </select>
+                <select id="colors"></select>
+                    <button id="botao-salvar">Salvar projeto</button>
+                </section>  
+
+           
+        </section>
+
+        <main> <!-- Layout central -->
+            <section id='editor'>
+                <input type="text" id='editor-texto'>
+                <img id='mc-buttons' src='imagem/Ellipse 1.png'>
+                <img id='mc-buttons' src='imagem/Ellipse 2.png'>
+                <img id='mc-buttons' src='imagem/Ellipse 3.png'>
+            <div>
+                <button id='hl-button'>Visualizar com o highlight</button>
+            </div>
+        </section>
+        </main>
+</body>
+</html>

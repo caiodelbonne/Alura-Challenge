@@ -1,0 +1,58 @@
+.menu-esquerdo-titulo{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 3px;
+}
+.menu-navegacao{
+    position: absolute;
+    top: 100px;
+    margin-left: 20px;
+  
+}
+.lista-menu-nav{
+    text-decoration: none;
+}
+h3 {
+    text-transform: uppercase;
+}
+.menu-nav-esquerdo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.container-menu-esquerdo{
+    
+    justify-content: space-between;
+    padding: 5px;
+  
+}
+
+
+.item-menu-nav {
+    
+    text-align: center;
+    padding-left: 16px;
+    font-size: 1.8em;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    color:  #FFFFFF;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.container-menu-esquerdo #comunidade{
+    opacity:0.6;
+}
+h3:hover{
+/*outline: dotted 1px white; /* pontilhado em volta */
+    background-color: rgb(8, 68, 92);
+    cursor: pointer;
+}
+nav a {
+    text-decoration: none;
+    color: white ;
+}
